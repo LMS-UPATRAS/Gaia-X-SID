@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://w3id.org/gaia-x/2411#",
+    {
+      "schema": "https://schema.org/",
+      "gx": "https://w3id.org/gaia-x/2411#"
+    }
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-SID#participant-vc",
+  "type": [
+    "VerifiableCredential",
+    "gx:LegalPerson"
+  ],
+  "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS2",
+  "validFrom": "2026-10-15T05:56:04Z",
+  "credentialStatus": {
+    "id": "did:web:lms-upatras.github.io:Gaia-X-SID#status-list",
+    "type": "BitstringStatusList2023"
+  },
+  "credentialSubject": {
+    "id": "did:web:lms-upatras.github.io:Gaia-X-SID",
+    "type": "gx:LegalPerson",
+    "schema:name": "SIDENOR INDUSTRIAL STEEL SINGLE MEMBER S.A.",
+    "gx:registrationNumber": {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-SID#registration"
+    },
+    "gx:headquartersAddress": {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-SID#address"
+    },
+    "gx:legalAddress": {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-SID#address"
+    }
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-10-15T05:56:04Z",
+    "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS2#key-1",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMyI2tleS0xIn0..fQgvV7GTMzK-eu6h_So22Y7Ufv3LDKgIuBd6Vg5lb8cmZfTeCXHttqNYLp9klCM-1nXoiYxoQRFVNhVuoa_pqdjeh0s_L1f_v_-EICtH1cH2bkAXGAyAjRPWCucCQBUFidf7QjBTzxAH_OU3Wky5_J8K6fQ_xXO1hPRM7nAtnErZCiWEAK7QM6l6hC67rHu_dixvl5A44LJav87SQHWZgaCUXICfIH0vVLcGUCAi04yjzMA9Mz0zHMhHSqjl_p3U7QJd_k94Q7PpTpStm_56ihMj0uyrsltgGq5uT-uNFrAuBoMis9Cavf0dIFgCL2fCfRdCRx1jnaHCxKfGX-TYfUu9uHEwCQbjXriZazPcuG-NvhvephMoKRmOzBXYqc2jueTk330GCkBjSMAzJqSjfLci-bUNGFmmfu3z1KxTysRvul0XextzAk3tw-VmH4NsT9kl7dfPFInqTsGjNcbXpe_IOh_XX_ghpqMqAb0wQGD-pc4JAq43iDejqEQbesN6MglouXU43Fqe5s4nSo_SBj5HF1hNVeZ3zXH2fDET2fwm-2HwMY0KWNgQDi0MZO9xmLpJSvecGGkW4NTOHJqyzXHiuRAjPGsY6-qSs0BPRXR3gE2Q8eVh0irYXKzupy_MadN73_LCozBgb50691-_PTb1dGfKkfJHaQZPNqX1lRo"
+  }
+}

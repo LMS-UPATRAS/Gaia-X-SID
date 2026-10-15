@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-SID#membership-credential",
+  "type": [
+    "VerifiableCredential",
+    "MembershipCredential"
+  ],
+  "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS2",
+  "issuanceDate": "2026-10-15T05:55:57Z",
+  "expirationDate": "2027-10-15T05:56:08Z",
+  "credentialSubject": {
+    "id": "did:web:lms-upatras.github.io:Gaia-X-SID",
+    "memberOf": "gaia-x-dataspace",
+    "membership": {
+      "membershipType": "FullMember",
+      "since": "2023-01-01T00:00:00Z"
+    },
+    "roles": [
+      "consumer",
+      "provider"
+    ]
+  }
+}

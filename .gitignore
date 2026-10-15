@@ -1,0 +1,7 @@
+
+private_key_details.txt
+private-key.pem
+public-key.pem
+*.pem
+*.key
+!*x509Certificate.pem
