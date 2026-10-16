@@ -39,7 +39,7 @@
     {
       "id": "did:web:lms-upatras.github.io:Gaia-X-SID#credential-service",
       "type": "CredentialService",
-      "serviceEndpoint": "http://150.140.148.216:12131/api/credentials/v1/participants/ZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLVNJRA=="
+      "serviceEndpoint": "http://150.140.148.216:11131/api/credentials/v1/participants/ZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLVNJRA=="
     },
     {
       "id": "did:web:lms-upatras.github.io:Gaia-X-SID#protocol-endpoint",
